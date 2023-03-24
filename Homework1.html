@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 35px;
+        font-family: sans-serif;
+        color: #1964d6;
+        display: block;
+      }
+
+      p {
+        text-align: center;
+        font-family: monospace;
+        font-size: 18px;
+        color: #4c4c4c;
+      }
+
+      body {
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      ul {
+        text-align: center;
+        list-style-type: none;
+        overflow: hidden;
+        padding: 0%;
+      }
+
+      li {
+        padding: 50px 0px;
+        margin: 0 auto;
+        text-align: center;
+        transition: all 200ms ease-in-out;
+        border-radius: 10px;
+        max-width: 300px;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: transparent;
+        color: #1964d6;
+        transition: all 200ms ease-in-out;
+      }
+
+      li:hover {
+        background-color: #FEFBEF;
+        padding: 16px 24px
+        margin: 10px 50px 20px
+        transition: all 0.3s ease-in-out;
+      }
+
+
+
+      .Today {
+        font-weight: bold;
+      }
+      .Days {
+        font-weight: bold;
+        font-size: large;
+      }
+
+      .Thismorning {
+        font-size: 30px;
+      }
+
+      .Thisafternoon {
+        font-size: 30px;
+        font-weight: bolder;
+      }
+
+      .afternoon {
+        color: #4c4c4c;
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 18px;
+      }
+
+      .morning {
+        font-family: monospace;
+        font-size: 18px;
+        color: #4c4c4c;
+      }
+    </style>
+  </head>
+  <h1>
+    🌤
+    <br />
+  </h1>
+
+  <h2>Currently 21° in Tokyo</h2>
+
+  <span class="Thismorning">13° / </span>
+
+  <span class="Thisafternoon">23°</span>
+
+  <body>
+    <ul>
+      <li>
+        <span class="Days">🌧 Tomorrow </span><br />
+
+        <span class="morning">10° / </span>
+
+        <span class="afternoon">22°</span>
+      </li>
+
+      <li>
+        <span class="Days"> 🌥Saturday</span><br />
+
+        <span class="morning">17° / </span>
+
+        <span class="afternoon">22°</span>
+      </li>
+
+      <li>
+        <span class="Days"> ☀️ Sunday </span><br />
+
+        <span class="morning">25° / </span>
+        <span class="afternoon">28°</span>
+      </li>
+    </ul>
+
+    <button>Change city</button>
+
+    <p>Coded by Prescillia Mvangu</p>
+  </body>
+</html>
